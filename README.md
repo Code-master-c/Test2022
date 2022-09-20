@@ -24,9 +24,9 @@ An **interesting** information about project *Test project*
 
 for (int i = 1; i < 10; i ++){
 
-    glm::vec2 a = {x, x};
+    glm::vec3 a = {x, x, x * x};
     
-    a.x += i;
+    a.z += i;
     
     a.y -= i;
     
@@ -40,28 +40,18 @@ for (int i = 1; i < 10; i ++){
 [link](https://www.markdownguide.org/cheat-sheet/)
 
 
-| Syntax | Description |
+| Something | new |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| here | in |
+| this | table |
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
 
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-term
-: definition
 
 
-	~~The world is flat.~~
   
 - [x] Write the press release :joy:
 - [ ] Update the website
