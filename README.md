@@ -3,21 +3,13 @@ Test project
 
 An **interesting** information about project *Test project*
 
-> What
+> What is in
 
- no
 
-> is
- no
-> it.
+1. one
+2. two
+3. three
 
-1. One
-2. Two
-3. Three
-
-- A
-- B
-- C
 
 
 '
@@ -30,7 +22,7 @@ for (int i = 1; i < 10; i ++){
     
     a.y -= i;
     
-    b = a * b;
+    b = a * c;
     
 }
 '
