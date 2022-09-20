@@ -11,21 +11,18 @@ An **interesting** information about project *Test project*
 3. three
 
 
+	for (int i = 1; i < 10; i ++){
 
-'
+    		glm::vec3 a = {x, x, x * x};
+    
+    		a.z += i;
+    
+    		a.y -= i;
+    
+    		b = a * c;
+    
+	}
 
-for (int i = 1; i < 10; i ++){
-
-    glm::vec3 a = {x, x, x * x};
-    
-    a.z += i;
-    
-    a.y -= i;
-    
-    b = a * c;
-    
-}
-'
 
 ---
 
